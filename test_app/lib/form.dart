@@ -259,7 +259,7 @@ class _MyFormPageState extends State<MyFormPage> {
                                         ] else if (jenjangSarjana) ...[
                                           const Text('Jenjang: Sarjana'),
                                         ],
-                                        Text('Umur: ${umur.round} tahun'),
+                                        Text('Umur: ${umur.round()} tahun'),
                                         Text('Kelas PBP: $kelasPBP'),
                                         if (_nilaiSwitch) ...[
                                           const Text('In Practice Mode'),
